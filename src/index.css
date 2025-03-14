@@ -1,0 +1,200 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+    --sidebar-background: 219 32% 12%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 43 74% 53%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 220 14% 24%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 14% 24%;
+    --sidebar-ring: 217.9 32.6% 17.5%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+    --sidebar-background: 219 32% 12%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 43 74% 53%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 220 14% 24%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 14% 24%;
+    --sidebar-ring: 217.9 32.6% 17.5%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* Gilani Motors Custom Styles */
+@layer components {
+  /* Layout Components */
+  .gilani-container {
+    @apply container px-4 sm:px-6 lg:px-8 mx-auto;
+  }
+  
+  .gilani-section {
+    @apply py-16 md:py-24;
+  }
+  
+  /* Card Component */
+  .gilani-card {
+    @apply bg-gilani-navy/70 backdrop-blur-sm border border-gilani-gold/30 rounded-lg p-6 shadow-md;
+  }
+  
+  /* Typography */
+  .gilani-heading {
+    @apply font-playfair font-bold text-gilani-gold;
+  }
+  
+  .gilani-subheading {
+    @apply uppercase text-gilani-silver tracking-widest text-sm mb-3 font-montserrat;
+  }
+  
+  /* Buttons */
+  .gilani-button {
+    @apply px-6 py-3 rounded-md font-montserrat font-medium text-gilani-navy bg-gilani-gold border border-gilani-gold 
+    transition-all duration-300 hover:bg-gilani-gold/90 hover:shadow-lg;
+  }
+  
+  /* Rich Text Content */
+  .gilani-rich-text h1 {
+    @apply font-playfair text-3xl text-gilani-gold mb-4;
+  }
+  
+  .gilani-rich-text h2 {
+    @apply font-playfair text-2xl text-gilani-gold mb-3;
+  }
+  
+  .gilani-rich-text h3 {
+    @apply font-playfair text-xl text-gilani-gold mb-2;
+  }
+  
+  .gilani-rich-text p {
+    @apply font-montserrat text-gilani-silver mb-4;
+  }
+  
+  .gilani-rich-text ul, .gilani-rich-text ol {
+    @apply font-montserrat text-gilani-silver mb-4 pl-5;
+  }
+  
+  .gilani-rich-text ul li {
+    @apply mb-2 list-disc;
+  }
+  
+  .gilani-rich-text ol li {
+    @apply mb-2 list-decimal;
+  }
+  
+  /* Decorative Elements */
+  .gilani-divider {
+    @apply h-px bg-gradient-to-r from-transparent via-gilani-gold/50 to-transparent my-8;
+  }
+  
+  .gilani-highlight {
+    @apply text-gilani-gold font-medium;
+  }
+  
+  /* Animation Classes */
+  .gilani-fade-in {
+    @apply transition-all duration-700 opacity-0 translate-y-4;
+  }
+  
+  .gilani-fade-in.active {
+    @apply opacity-100 translate-y-0;
+  }
+  
+  /* Image Frames */
+  .gilani-image-frame {
+    @apply relative rounded-lg overflow-hidden p-1 bg-gradient-to-br from-gilani-silver/30 via-gilani-gold/50 to-gilani-silver/30;
+  }
+  
+  .gilani-image-frame img {
+    @apply rounded-lg;
+  }
+  
+  /* Quotes */
+  .gilani-quote {
+    @apply italic text-gilani-silver/90 border-l-4 border-gilani-gold/50 pl-4 py-2;
+  }
+  
+  /* Tables */
+  .gilani-table {
+    @apply w-full text-gilani-silver/90 overflow-hidden rounded-lg;
+  }
+  
+  .gilani-table th {
+    @apply bg-gilani-gold/20 text-gilani-gold p-3 font-playfair text-left;
+  }
+  
+  .gilani-table td {
+    @apply border-b border-gilani-gold/10 p-3;
+  }
+  
+  .gilani-table tr:last-child td {
+    @apply border-b-0;
+  }
+  
+  /* Forms */
+  .gilani-input {
+    @apply bg-gilani-navy/50 border border-gilani-gold/30 rounded-md px-4 py-2 text-gilani-silver focus:outline-none 
+    focus:ring-2 focus:ring-gilani-gold/50 focus:border-gilani-gold/50 w-full transition-all duration-300;
+  }
+  
+  .gilani-label {
+    @apply text-gilani-silver text-sm font-montserrat mb-1 block;
+  }
+}
