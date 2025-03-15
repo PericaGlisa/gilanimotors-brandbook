@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0A0A0C"/>
+  <g filter="url(#glow)">
+    <path d="M400 315C400 270.817 435.817 235 480 235C524.183 235 560 270.817 560 315C560 359.183 524.183 395 480 395" stroke="#B8860B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M480 295L510 315L480 335L450 315L480 295Z" fill="#B8860B"/>
+  </g>
+  <text x="600" y="325" font-family="Playfair Display, serif" font-size="64" fill="#B8860B" text-anchor="start">Gilani</text>
+  <text x="600" y="325" font-family="Playfair Display, serif" font-size="64" fill="#C0C0C0" text-anchor="start" dx="200">Motors</text>
+  <text x="600" y="375" font-family="system-ui" font-size="24" fill="#C0C0C0" text-anchor="start">Brand Identity Guide</text>
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+    </filter>
+  </defs>
+</svg>
