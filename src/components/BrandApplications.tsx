@@ -73,7 +73,7 @@ const BrandApplications = () => {
     {
       title: "Event Branding",
       description: "Sophisticated presence at automotive shows and private events",
-      imageSrc: "https://images.unsplash.com/photo-1511527661048-7fe73d85e9a4?q=80&w=1740&auto=format&fit=crop",
+      imageSrc: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=1740&auto=format&fit=crop",
       alt: "Luxury brand event"
     }
   ];
