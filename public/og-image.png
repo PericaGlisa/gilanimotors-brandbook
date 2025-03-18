@@ -1,0 +1,7 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#000000"/>
+  <rect x="50" y="50" width="1100" height="530" stroke="#B4925E" stroke-width="2"/>
+  <text x="600" y="250" font-family="'Playfair Display'" font-size="64" fill="#B4925E" text-anchor="middle">GILANI MOTORS</text>
+  <text x="600" y="350" font-family="'Montserrat'" font-size="32" fill="#FFFFFF" text-anchor="middle">Brand Identity Guide</text>
+  <path d="M540 400 L660 400 L600 450 Z" fill="#B4925E"/>
+</svg>
