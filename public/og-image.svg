@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000B1F;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#001233;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <path d="M0 0 L400 0 L350 50 L0 50 Z" fill="#B6935C" opacity="0.1"/>
+  <path d="M1200 630 L800 630 L850 580 L1200 580 Z" fill="#B6935C" opacity="0.1"/>
+  
+  <!-- Logo and text container -->
+  <g transform="translate(600, 315)" text-anchor="middle">
+    <!-- Brand name -->
+    <text fill="#B6935C" font-family="Playfair Display, serif" font-size="72" font-weight="bold" y="-20">GILANI</text>
+    <text fill="#CAD1E1" font-family="Playfair Display, serif" font-size="72" font-weight="bold" y="70">MOTORS</text>
+    
+    <!-- Tagline -->
+    <text fill="#CAD1E1" font-family="Inter, sans-serif" font-size="24" y="140">Brand Identity Guide</text>
+  </g>
+  
+  <!-- Subtle design elements -->
+  <rect x="400" y="280" width="400" height="2" fill="#B6935C" opacity="0.3"/>
+  <rect x="400" y="348" width="400" height="2" fill="#B6935C" opacity="0.3"/>
+</svg>
