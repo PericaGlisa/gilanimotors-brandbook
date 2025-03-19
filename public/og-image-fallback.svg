@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="1200" height="630" fill="#0A1929"/>
+  <rect width="1200" height="630" fill="url(#gradient)" opacity="0.4"/>
+  
+  <!-- Logo and Text Container -->
+  <g transform="translate(600, 315)" text-anchor="middle">
+    <!-- Brand Name -->
+    <text fill="#C6A063" font-family="Playfair Display, serif" font-size="72" font-weight="bold" y="-20">Gilani Motors</text>
+    <!-- Tagline -->
+    <text fill="#94A3B8" font-family="Montserrat, sans-serif" font-size="24" y="40">Luxury Automotive Excellence</text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <path d="M0 0L1200 0L1180 20L20 20L0 0Z" fill="#C6A063" opacity="0.3"/>
+  <path d="M0 630L1200 630L1180 610L20 610L0 630Z" fill="#C6A063" opacity="0.3"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C6A063" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0A1929" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
