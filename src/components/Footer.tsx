@@ -24,7 +24,7 @@ const Footer = () => {
             <span className="hidden sm:block h-4 w-px bg-gilani-gold/30"></span>
             <span>Brand Identity Guidelines</span>
             <span className="hidden sm:block h-4 w-px bg-gilani-gold/30"></span>
-            <span>Created by Rod Rakic</span>
+            <span>Design by eSamurai eCommerce Service</span>
           </div>
         </div>
       </div>
